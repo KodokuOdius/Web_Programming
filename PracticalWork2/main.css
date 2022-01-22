@@ -1,0 +1,41 @@
+body {
+    font-size: 14px;
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("images/bg.jpg");
+    background-position: center center;
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+.italic {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.comic {
+    font-family: 'Comic Sans';
+    font-size: 25pt;
+    text-indent: 50px;
+}
+
+.rich {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    color: tomato;
+    line-height: 25pt;
+}
+
+.red {
+    color: rgb(255, 38, 0);
+}
+
+.perenos {
+    white-space: pre-line;
+}
