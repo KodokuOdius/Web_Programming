@@ -1,0 +1,19 @@
+body {
+    background-image: url(images/fon.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    backdrop-filter: cover;
+}
+
+h1, h2, h3 {
+    color: rgb(153, 0, 0);
+}
+
+.imgr {
+    width: 25%;
+}
+
+.abc{
+    display: flexbox;
+    flex-direction: row;
+}
