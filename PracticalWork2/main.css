@@ -34,8 +34,39 @@ p {
 
 .red {
     color: rgb(255, 38, 0);
+    text-transform: uppercase;
 }
 
 .perenos {
     white-space: pre-line;
+}
+
+.pers {
+    letter-spacing: 200%;
+    text-indent: 2em;
+    line-height: 2;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 12pt;
+    font-variant-caps: small-caps;
+}
+
+.persclass1 {
+    text-align: center;
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 300%;
+    word-spacing: normal;
+    text-shadow: 50pt;
+}
+
+.persclass2 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 16pt;
+    white-space: nowrap;
+    color: cadetblue;
+    text-overflow: clip;
+    text-decoration: overline;
 }
