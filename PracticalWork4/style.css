@@ -1,0 +1,52 @@
+body {
+    background-image: url("images/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+table {
+    background-color: #e8e8e8;
+    border-collapse: separate;
+    font-size: 14px;
+    border: 3px solid #000000;
+    margin-bottom: 35px
+}
+
+th {
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    font-size: 16px;
+    color: #000000;
+    border: 2px dashed #000000;
+}
+
+td {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px dashed #000000;
+    color: #000000;
+}
+
+caption {
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    padding: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.first {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    color: #000000;
+}
