@@ -6,14 +6,25 @@ body {
 }
 
 h1, h2, h3 {
-    color: rgb(153, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(160, 0, 0);
 }
 
-.imgr {
-    width: 25%;
+p {
+    font-size: large;
+    text-align: justify;
 }
 
-.abc{
-    display: flexbox;
+div.flex {
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: max-content;
+    width: 250%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
