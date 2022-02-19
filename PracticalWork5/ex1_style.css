@@ -1,0 +1,66 @@
+body {
+    background-image: url("images/y.jpg");
+    background-attachment: fixed;
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    
+    border-collapse: separate;
+    font-size: 18px;
+    border-style: outset;
+    border-width: 7px;
+    margin-bottom: 35px;
+}
+
+th {
+    text-align: left;
+    padding-right: 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    
+    border-width: 2px;
+    border-color: grey;
+    border-style: inset;
+    
+}
+
+th.title {
+    
+    background-color: rgb(184, 184, 184);
+    font-weight: bold;
+    color: rgb(223, 0, 45);
+}
+
+td {
+    
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    
+    border-style: inset;
+    border-color: gray;
+}
+
+caption {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(136, 0, 0);
+    padding: 10px 10px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+    font-size: 20pt;
+}
+
+
+

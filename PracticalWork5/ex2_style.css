@@ -1,0 +1,66 @@
+
+body {
+    background-color: rgb(240, 216, 209);
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-color: rgb(255, 255, 255);
+    border-collapse: separate;
+    font-size: 16px;
+    border-style: outset;
+    border-width: 7px;
+    margin-bottom: 35px;
+}
+
+th {
+    text-align: left;
+    padding: 10px 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: inset;
+    
+}
+
+th.title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 48, 48);
+    font-weight: bold;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    
+}
+
+td {
+    
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+caption {
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(167, 0, 0);
+    padding: 20px 10px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+    font-size: 20pt;
+}
