@@ -41,7 +41,6 @@ th.title {
 }
 
 td {
-    
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
     
@@ -54,13 +53,12 @@ caption {
     font-weight: bold;
     text-align: center;
     color: rgb(167, 0, 0);
-    padding: 20px 10px;
 }
 
 footer {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    
+    padding: 20px;
     font-size: 20pt;
 }
