@@ -1,4 +1,9 @@
 
+head {
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+}
+
 body {
     text-align: center;
 }
