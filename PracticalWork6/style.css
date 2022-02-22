@@ -8,11 +8,16 @@ body {
     text-align: center;
 }
 
+
 footer {
-    margin-top: 50px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 21px;
     border: 2px solid;
-    border-radius: 50px;
     background-color: antiquewhite;
+    z-index: 5;
 }
 
 h3 {
@@ -24,7 +29,8 @@ h3 {
 div.ex {
     background-color: whitesmoke;
     border: dashed;
-    height: 250px;
+    padding: 0px 25px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
     margin-left: 25px;
     margin-right: 25px;
@@ -39,49 +45,49 @@ div.ex {
 
 /* =================== */
 #el1{
-    border: 1px solid red;
+    border: 2px solid red;
     left: -100px;
     top: -10px;
 }
 #el2{
-    border: 1px solid blue;
+    border: 2px solid blue;
     left: 0px;
     top: 0px;
 }
 #el3{
-    border: 1px solid green;
+    border: 2px solid green;
     left: 100px;
     top: 10px;
 }
 
 /* =================== */
 #el4{
-    border: 1px solid red;
+    border: 2px solid red;
     left: -100px;
     top: 52px;
 }
 #el5{
-    border: 1px solid blue;
+    border: 2px solid blue;
     left: 0px;
 }
 #el6{
-    border: 1px solid green;
+    border: 2px solid green;
     left: 100px;
     top: -52px;
 }
 
 /* =================== */
 #el7{
-    border: 1px solid red;
+    border: 2px solid red;
     left: -30px;
     top: 20px;
 }
 #el8{
-    border: 1px solid blue;
+    border: 2px solid blue;
     left: 0px;
 }
 #el9{
-    border: 1px solid green;
+    border: 2px solid green;
     left: 30px;
     top: -20px;
 }
@@ -167,3 +173,211 @@ div.ex {
     left: 30px;
     top: -20px;
 }
+
+/* =================== */
+.warper {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+#el22{
+    border: 2px solid green;
+}
+#el23 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    right: 75px;
+    top: 50px;
+}
+
+/* =================== */
+#el24 {
+    width: 500px;
+    border: 1px solid green;
+    background-color: green;
+}
+#el25 {
+    background-color: white;
+    right: 150px;
+    top: 50px;
+}
+#el26 {
+    background-color: white;
+    left: 150px;
+    top: 200px;
+}
+
+/* =================== */
+#el27 {
+    width: 200px;
+    border: 2px solid black;
+    background-color: white;
+}
+#el28 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    top: 20px;
+}
+#el29 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+    top: 25px;
+}
+#el30 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50px;
+    top: 30px;
+}
+
+/* =================== */
+#el31 {
+    border-radius: 500px;
+    background-color: green;
+}
+#el32 {
+    background-color: white;
+    border-radius: 50px;
+    top: 51px;
+    right: 75px;
+}
+#el33 {
+    background-color: white;
+    border-radius: 50px;
+    left: 75px;
+}
+#el34 {
+    background-color: white;
+    top: 35px;
+}
+#el35 {
+    height: 25px;
+    width: 250px;
+    background-color: white;
+    top: 80px;
+}
+
+/* =================== */
+#el36 {
+    border-radius: 500px;
+    background-color: #C4CD14;
+}
+
+
+.noise{
+    background-color: #fff;
+    position: absolute;
+    left: 140px;
+    top: 175px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    border-radius: 35px;
+}
+.mouth2{
+    background-color: #C4CD14;
+    position: absolute;
+    left: 27px;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    z-index: 2;
+}
+.mouth1{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 75px;
+    top: 130px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    z-index: 1;
+}
+.eye1 {
+    background-color: #fff;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    z-index: 4;
+    left: 200px;
+    top: 60px;
+}
+.eye2 {
+    background-color: #fff;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    z-index: 4;
+    left: 50px;
+    top: 60px;
+}
+
+/* =================== */
+
+p.site {
+    font-size: 15pt;
+    padding: 0px 25px;
+    text-align: left;
+    line-height: 25px;
+}
+
+div.site1 {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 20px 20px 0px 0px;
+    border-color: #B43273;
+    position: relative;
+}
+
+div.site1 h2 {
+    margin-bottom: -10px;
+    font-size: 25pt;
+    padding-left: 25px;
+    color: #B43273;
+    text-align: left;
+}
+
+#footer {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: #B43273;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    border-top: 1px solid #76214B;
+}
+
+/* =================== */
+
+div.site2 {
+    padding-top: 35px;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border: 2px solid;
+    border-color: #C4CD14;
+    position: relative;
+}
+
+#header {
+    margin-bottom: 25px;
+    font-size: 16pt;
+    color: white;
+    background-color: #C4CD14;
+}
+
