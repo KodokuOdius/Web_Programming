@@ -1,0 +1,164 @@
+
+body {
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+
+h3 {
+    font-size: 18pt;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+div.ex {
+    background-color: whitesmoke;
+    border: dashed;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.element {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+/* =================== */
+#el1{
+    border: 1px solid red;
+    left: -100px;
+    top: -10px;
+}
+#el2{
+    border: 1px solid blue;
+    left: 0px;
+    top: 0px;
+}
+#el3{
+    border: 1px solid green;
+    left: 100px;
+    top: 10px;
+}
+
+/* =================== */
+#el4{
+    border: 1px solid red;
+    left: -100px;
+    top: 52px;
+}
+#el5{
+    border: 1px solid blue;
+    left: 0px;
+}
+#el6{
+    border: 1px solid green;
+    left: 100px;
+    top: -52px;
+}
+
+/* =================== */
+#el7{
+    border: 1px solid red;
+    left: -30px;
+    top: 20px;
+}
+#el8{
+    border: 1px solid blue;
+    left: 0px;
+}
+#el9{
+    border: 1px solid green;
+    left: 30px;
+    top: -20px;
+}
+
+/* =================== */
+#el10{
+    border: 1px solid red;
+    background-color: red;
+    left: -30px;
+    top: 20px;
+}
+#el11{
+    border: 1px solid blue;
+    background-color: blue;
+    left: 0px;
+}
+#el12{
+    border: 1px solid green;
+    background-color: green;
+    left: 30px;
+    top: -20px;
+}
+
+/* =================== */
+#el13{
+    border: 1px solid red;
+    background-color: red;
+    left: -30px;
+    top: 20px;
+}
+#el14{
+    border: 1px solid blue;
+    background-color: blue;
+    left: 0px;
+    z-index: 1;
+}
+#el15{
+    border: 1px solid green;
+    background-color: green;
+    left: 30px;
+    top: -20px;
+}
+
+/* =================== */
+#el16{
+    border: 1px solid red;
+    background-color: red;
+    left: -30px;
+    top: 20px;
+    z-index: 1;
+}
+#el17{
+    border: 1px solid blue;
+    background-color: blue;
+    left: 0px;
+}
+#el18{
+    border: 1px solid green;
+    background-color: green;
+    left: 30px;
+    top: -20px;
+    z-index: 1;
+}
+
+
+/* =================== */
+#el19{
+    border: 1px solid red;
+    background-color: red;
+    left: -30px;
+    top: 20px;
+    z-index: 2;
+}
+#el20{
+    border: 1px solid blue;
+    background-color: blue;
+    left: 0px;
+    z-index: 1;
+}
+#el21{
+    border: 1px solid green;
+    background-color: green;
+    left: 30px;
+    top: -20px;
+}
