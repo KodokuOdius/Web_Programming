@@ -1,0 +1,38 @@
+
+body {
+    text-align: center;
+    background: url("./img/bg.png") no-repeat fixed center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+ul {
+    width: 40%;
+    list-style-type: none; 
+    font-size: 14pt;
+}
+
+ul li {
+    margin-bottom: 20px;
+    display: block;
+    border: 2px solid black;
+    padding: 7px;
+
+    background-image: -webkit-linear-gradient(left, rgb(27, 24, 24) 25%, rgba(255,255,255, 0) 75%); 
+}
+
+li a:link, li a:visited, li a:visited{
+    color: white;
+	text-decoration: none;
+	display: block;
+	line-height: 30px;
+}
+li a:hover{
+    border: 2px dashed red;
+    font-weight: bold;
+}

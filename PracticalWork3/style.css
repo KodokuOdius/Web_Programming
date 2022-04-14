@@ -13,9 +13,10 @@ h1, h2, h3 {
 footer {
     text-align: center;
     position: fixed;
-    left: 0px;
+    right: 0px;
     bottom: 0px;
-    width: 100%;
+    width: 16%;
+    height: 5%;
     font-size: 21px;
     border: 2px solid;
     background-color: antiquewhite;
