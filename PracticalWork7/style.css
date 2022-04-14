@@ -15,10 +15,17 @@ html {
     background-size: cover;
 }
 
+
 footer {
+    text-align: center;
     position: fixed;
-    border: 2px solid black;
-    background-color: gray;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 21px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    z-index: 5;
 }
 
 img {

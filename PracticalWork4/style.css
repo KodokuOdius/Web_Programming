@@ -7,6 +7,18 @@ body {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 21px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    z-index: 5;
+}
+
 table {
     background-color: #e8e8e8;
     border-collapse: separate;

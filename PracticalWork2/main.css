@@ -8,6 +8,18 @@ body {
     background-position: center center;
 }
 
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 21px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    z-index: 5;
+}
+
 p {
     letter-spacing: 2px;
 }
