@@ -1,0 +1,17 @@
+
+body {
+    background: url("img/bg.jpeg") no-repeat;
+    background-size:cover;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+
+
+div.container {
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-inline: 50px;
+    background-image: -webkit-linear-gradient(top, rgb(194, 194, 194) 35%, rgba(255, 255, 255, 0) 100%);
+    padding-inline: 50px;
+}
