@@ -1,17 +1,28 @@
+@font-face {
+    font-family: "PIXY";
+    src: url("PIXY/PIXY.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 
 body {
-    background: url("img/bg.jpeg") no-repeat;
-    background-size:cover;
+    background: url("img/back.jpg") no-repeat fixed;
+    background-position: bottom right, left, right;
+    font-family: "PIXY";
+    background-size: cover;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 16pt;
 }
 
 
 div.container {
+    border-radius: 10%;
     border: 2px solid black;
     margin-top: 25px;
     margin-inline: 50px;
-    background-image: -webkit-linear-gradient(top, rgb(194, 194, 194) 35%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-linear-gradient(top, rgb(194, 194, 194) 95%, rgba(255, 255, 255, 0) 100%);
     padding-inline: 50px;
+    padding-bottom: 25px;
 }
