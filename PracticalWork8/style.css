@@ -5,9 +5,49 @@
     font-weight: normal;
 }
 
+.center {
+    text-align: center;
+}
+.underl {
+    text-decoration: underline;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.black {
+    color: black;
+}
+.right {
+    text-align: right;
+}
+.blue {
+    color: blue;
+}
+.justify {
+    text-align: justify;
+}
+.md-line {
+    margin-inline: 15px;
+}
+.hide {
+    display: none;
+    /* visibility: hidden;
+    z-index: -1;
+    position: fixed; */
+}
+
 
 h2.title {
     color: blue;
+    font-weight: bolder;
+}
+
+h1.main {
+    text-decoration: underline;
+    padding-top: 10px;
 }
 
 
@@ -26,26 +66,106 @@ div.container {
     border: 2px solid black;
     border-right: none;
     border-bottom: none;
-    margin-top: 25px;
-    margin-inline: 50px;
-    background-image: -webkit-linear-gradient(top left, rgb(194, 194, 194) 90%, rgba(255, 255, 255, 0) 90%);;
-    padding-inline: 50px;
-    padding-bottom: 25px;
+    border-top: none;
+    margin: 25px 50px 55px 50px;
+    background-image: -webkit-linear-gradient(left, rgb(194, 194, 194) 80%, rgba(255, 255, 255, 0) 100%);
+    padding-right: 100px;
+    padding-bottom: 75px;
 }
 
 
-.container .inner{
+.inner{
     width: 85%;
     margin-left: 55px;
 
     border: 2px solid black;
     border-radius: 5px;
     margin-bottom: 30px;
-    padding-inline: 20px 10px;
+    padding-inline: 20px 30px;
     text-align: left;
 }
 
 div.detail {
     text-align: right;
-    margin: 10px 40px 0 0;
+    margin: 25px 40px 25px 0px;
+}
+
+.picture {
+    float: left;
+    border: 2px solid black;
+    margin: 0px 15px 10px 0px;
+    width: 350px;
+}
+
+.title2 {
+    text-align: center;
+    color: darkorchid;
+}
+
+.rpad {
+    text-indent: 3ch;
+}
+
+ul {
+    display: block;
+}
+
+.small-header {
+    margin: auto;
+    margin-left: -20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 101%;
+    background-image: -webkit-linear-gradient(top left, gray 60%, rgba(255, 255, 255, 0) 78%);
+}
+
+.small-header li a {
+    display: block;
+    padding: 10px 15px 10px 10px;
+    color: white;
+}
+.small-header li a:hover {
+    background-color: rgb(194, 194, 194);
+    color: black;
+}
+
+
+.ex5 {
+    border: 3px dashed green;
+    border-radius: 20px;
+    color: green;
+}
+
+.ex6 {
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.ex7 {
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+}
+
+.ex7 .small-header {
+    background-image: -webkit-linear-gradient(top left, darkgoldenrod 60%, rgba(255, 255, 255, 0) 78%);
+}
+
+.ex7 .small-header li a:hover {
+    background-color: rgb(194, 194, 194);
+    color: darkgoldenrod;
+}
+
+.small-footer {
+    margin-top: -20px;
+    color: darkgoldenrod;
+    border: none;
+}
+
+.selector {
+    z-index: 99;
+    position: absolute;
+    background-color: gray;
+    margin-top: -20px;
+    margin: auto;
 }
