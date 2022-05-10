@@ -10,17 +10,20 @@ const allListItems = [
 
 
 function makeCode(id) {
-    const start = `<div id='s-${id}' class='selector hide'>\
-            <ul style='list-style: none;'>`
-    const end = "</ul>\
-        </div>"
-    let items = ''
+    const div = document.createElement('div')
+    div.id = `s-${id}`
+    div.classList.add('selector', 'hide')
+
+    const ul = document.createElement('ul')
+    ul.style = 'list-style: none;'
+
     for (let i = 0; i <= 7; i++) {
-        if (i !== id-1) {
-            items += allListItems[i]
+        if (i !== id - 1) {
+            ul.innerHTML += allListItems[i]
         }
     }
-    return start + items + end
+    div.appendChild(ul)
+    return div.outerHTML
 }
 
 function addSelector(event) {
@@ -31,24 +34,24 @@ function addSelector(event) {
 
 function changeEx(event) {
     const exNumber = event.target.dataset['ex']
-    event.path[4].classList.add('hide')
+    event.target.closest('.container').classList.add('hide')
     document.getElementById(`ex-${exNumber}`).classList.remove('hide')
 }
 
 
 
 // main
-document.querySelectorAll('.main').forEach(function(main) {
+document.querySelectorAll('.main').forEach(main => {
     main.outerHTML += makeCode(main.id);
     document.getElementById(`${main.id}`).addEventListener('click', addSelector);
 })
 
-document.querySelectorAll('.selection').forEach(function(selection) {
+document.querySelectorAll('.selection').forEach(selection => {
     selection.addEventListener('click', changeEx)
 })
 
-document.addEventListener('click', function() {
-    document.querySelectorAll('.selector').forEach(function(selector) {
+document.addEventListener('click', event => {
+    document.querySelectorAll('.selector').forEach(selector => {
         if (!selector.classList.contains('hide')) {
             selector.classList.add('hide');
         }
