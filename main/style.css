@@ -36,3 +36,17 @@ li a:hover{
     border: 2px dashed red;
     font-weight: bold;
 }
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 21px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    z-index: 5;
+    font-size: large;
+}

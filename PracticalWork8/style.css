@@ -165,7 +165,41 @@ ul {
 .selector {
     z-index: 99;
     position: absolute;
-    background-color: gray;
-    margin-top: -20px;
-    margin: auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(194, 194, 194);
+    margin-top: -30px;
+    right: 0;
+    left: 0;
+    margin-inline: 37%;
+}
+.selector ul {
+    margin: 0;
+    display: flexbox;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.selector li {
+    margin: -25px 80px;
+}
+
+.selector li:hover {
+    background: gray;
+    margin-inline: 20px;
+    border-radius: 50px;
+}
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 21px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    z-index: 5;
+    font-size: large;
 }
