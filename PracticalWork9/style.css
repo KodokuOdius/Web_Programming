@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "horror";
+    src: url("font/horror.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    font-family: "horror";
+    background: url("img/back.png") fixed no-repeat;
+    background-size: cover;
+    background-position: bottom right, left, right;
+    color: white;
+}
+
+.satanica {
+    width: fit-content;
+    height: auto;
+}
+.satanica img {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    margin: 10px 350px 40px 70px;
+    /* border: 3px solid black; */
+    text-align: center;
+}
+.bordered {
+    border: 1px solid red;
+}
+
+.inner {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    text-align: justify;
+    padding: 5px 50px 25px 50px;
+    margin: 5px 5px 15px 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 2px 0 10px 0;
+    padding: 0;
+    width: fit-content;
+}
+ul li {
+    margin-bottom: 10px;
+    width: auto;
+    display: block;
+    text-align: center;
+}
+ul li textarea {
+    width: calc(100% - 6px);
+}
+ul li input {
+    width: calc(100% - 8px);
+}
+ul li input[type="button"] {
+    width: 100%;
+}
+ul li button {
+    width: 100%;
+}
+
+ul.labeled {
+    width: 200px;
+}
+
+
+ul.line li {
+    text-align: left;
+}
+.line input {
+    width: auto;
+}
+
+ul.radio {
+    border: 2px solid white;
+    padding: 10px;
+    padding-inline-end: 150px;
+    border-radius: 10px;
+}
+ul.radio li {
+    margin-top: 10px;
+}
+fieldset {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    z-index: 99;
+    font-size: small;
+}

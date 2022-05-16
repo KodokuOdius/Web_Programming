@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,225 @@
     <link rel="stylesheet" href="./style.css">
     <title>Practical Work 9</title>
 </head>
+
 <body>
-    
+
+    <!-- <div class="satanica">
+        <img src="img/satanica.png" alt="">
+    </div> -->
+
     <div class="container">
-        <p>
-            <h2>Петецкий пидр</h2>
-        </p>
+        <h2>Exersice 1</h2>
+        <div class="inner">
+            <p>Начальное испытание с несколькими инпутами</p>
+
+            <ul>
+                <li>
+                    <input type="text" placeholder="Назови себя, смертный">
+                </li>
+
+                <li>
+                    <input type="text" value="Покорный слуга">
+                </li>
+                <li>
+                    <input type="text" disabled="disabled" placeholder="Тут не надо">
+                </li>
+                <li>
+                    <input type="password" placeholder="passwd" value="Семерунин пидр">
+                </li>
+                <li>
+                    <textarea cols="25" rows="1" placeholder="Чем ты отличаешься?">
+                    </textarea>
+                </li>
+                <li>
+                    <input type="button" value="input button">
+                </li>
+                <li>
+                    <button>
+                        simple button
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+
+        <h2>Exersice 2</h2>
+        <div class="inner">
+            <p>Продолжительное задание</p>
+            <ul class="labeled">
+                <li class="ex2">
+                    <label for="ex2">
+                        Метка для входа в систему
+                    </label>
+                    <input type="text" placeholder="Раб системы">
+                </li>
+                <li>
+                    <button>
+                        Нажать без возврата
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+
+        <h2>Exersice 3</h2>
+        <div class="inner">
+            <p>Заказ из Нескольких checkboxov для тестирования свойе снаровки</p>
+
+            <ul class="line">
+                <li>
+                    <input type="checkbox">
+                    <label for="checkbox">-> Свободый для выбора</label>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <label for="checkbox">-> Не совсем свободный</label>
+                </li>
+                <li>
+                    <input type="checkbox" checked disabled="disabled">
+                    <label for="checkbox">-> Не свободный</label>
+                </li>
+            </ul>
+            <ul class="line radio">
+                <label for="line">
+                    Радио кнопки
+                </label>
+                <li>
+                    <input type="radio" name="ex">
+                    <label for="radio">- простая метка</label>
+                </li>
+                <li>
+                    <input type="radio" name="ex">
+                    <label for="radio">- простая метка</label>
+                </li>
+                <li>
+                    <input type="radio" name="ex">
+                    <label for="radio">- простая метка</label>
+                </li>
+            </ul>
+            <button>
+                Нажать без возврата
+            </button>
+        </div>
+
+
+        <h2>Exersice 4</h2>
+        <div class="inner">
+            <p>Выпадающие и невыпадающие списки и не только то, что не надо</p>
+            <ul class="line select">
+                <li>
+                    <select name="ex4-1">
+                        <option>Здесь</option>
+                        <option>Не мультиплай</option>
+                        <option>Свойство</option>
+                        <option>Поэтому это</option>
+                        <option>Выпадающий</option>
+                        <option>Списоки</option>
+                    </select>
+                </li>
+                <li>
+                    <select name="ex4-2" multiple>
+                        <option>Здесь уже</option>
+                        <option>Есть мультиплай</option>
+                        <option>Поэтому</option>
+                        <option>Есть скролбар</option>
+                    </select>
+                </li>
+                <li>
+                    <select name="ex4-3" multiple>
+                        <option>Это просто повтор</option>
+                        <option>Для проверки</option>
+                        <option>Но чуть подлиннее</option>
+                        <option>Кстати</option>
+                        <option>Во всех option</option>
+                        <option>Должен быть value</option>
+                        <option>Чтобы получать инфу</option>
+                    </select>
+                </li>
+            </ul>
+            <button>
+                Нажать без возврата
+            </button>
+        </div>
+
+
+        <h2>Exersice 5</h2>
+        <div class="inner">
+            <p>Не забываем и о файла для чекиста</p>
+            
+            <ul class="line">
+                <li>
+                    <input type="file">
+                </li>
+            </ul>
+
+            <button>
+                Нажать без возврата
+            </button>
+        </div>
+
+
+        <h2>Exersice 6</h2>
+        <div class="inner">
+            <p>Подсказка подсказала что жто задание с новыми тегами для легенд</p>
+            <fieldset>
+                <legend>
+                    Я понял что это такое
+                </legend>
+                <input type="radio" name="ex-6">
+                <input type="radio" name="ex-6">
+                <input type="radio" name="ex-6">
+                <input type="text" placeholder="Странная компания">
+            </fieldset>
+
+            <fieldset>
+                <legend>Вторая чать этого не последнего задания</legend>
+                <input type="radio" name="ex-6-2">
+                <input type="radio" name="ex-6-2">
+                <input type="radio" name="ex-6-2">
+                <input type="radio" name="ex-6-2">
+                <input type="radio" name="ex-6-2">
+                <input type="radio" name="ex-6-2">
+                
+            </fieldset>
+
+            <button>
+                Нажать без возврата
+            </button>
+        </div>
+
+
+        <h2>Exersice 7</h2>
+        <div class="inner">
+            <p>Можно ли это решить без доп файлы?</p>
+            <ul class="line">
+                <li>
+                    <textarea name="" id="" cols="30" rows="2" placeholder="Без ограничений ширина и высотка"></textarea>
+                </li>
+                <li>
+                    <textarea name="" id="" cols="30" rows="2" style="resize: none;" placeholder="Ограничение"></textarea>        
+                </li>
+                <li>
+                    <textarea name="" id="" cols="30" rows="2" style="resize: horizontal;" placeholder="Не по высоте"></textarea>        
+                </li>
+                <li>
+                    <textarea name="" id="" cols="30" rows="2" style="resize: vertical;" placeholder="Не по ширине"></textarea>   
+                </li>
+            </ul>
+
+            <button>
+                Нажать без возврата
+            </button>
+        </div>
     </div>
 
+    <footer>
+        > <a href="..">All Practical Works</a>
+    </footer>
 
 
     <script type="text/javascript" src="./script.js" lang="javascript">
     </script>
 </body>
+
 </html>
