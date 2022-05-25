@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-weight: 400;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    border: 3px solid black;
+    background-color: cornflowerblue;
+    border-radius: 7px;
+    padding: 0px 35px;
+    padding-bottom: 10px;
+}
+
+.list {
+    max-width: 350px;
+}
+
+.list .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type='text'] {
+    margin-top: 2px;
+}
+
+input[type='radio'] {
+    margin-right: 10px;
+}
+
+.radio .item {
+    max-width: 150px;
+    justify-content: flex-start;
+    padding: 0 10px 10px 0;
+}
+
+div.button {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+button {
+    background-color: aqua;
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 30px;
+    letter-spacing: .12em;
+}
