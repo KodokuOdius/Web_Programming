@@ -12,65 +12,165 @@
 <body>
     <main class="main">
         <div class="container">
-            <h3 class="title">Форма регистрации</h3>
-            <ul class="list">
-                <li class="item">
-                    ФИО
-                    <input type="text">
-                </li>
-                <li class="item">
-                    Email
-                    <input type="text">
-                </li>
-                <li class="item">
-                    Номер телефона
-                    <input type="text">
-                </li>
-                <li class="item">
-                    Город
-                    <input type="text">
-                </li>
-                <li class="item">
-                    Дата рождения
-                    <input type="text">
-                </li>
-            </ul>
+            <h2 class="title">Exersice 1</h2>
 
-            <h3 class="title">Параметры доставки</h3>
-            <ul class="list">
-                <li class="item">
-                    Адрес
-                    <textarea name="adress" id="" cols="21" rows="5" style="resize: none; overflow:scroll;"></textarea>
-                </li>
-                <li class="item">
-                    Почтовый индекс
-                    <input type="text">
-                </li>
-            </ul>
+            <div class="inner_container ex1">
+                <h3 class="title">Форма регистрации</h3>
+                <ul class="list">
+                    <li class="item">
+                        ФИО
+                        <input type="text" required>
+                    </li>
+                    <li class="item">
+                        Email
+                        <input type="email" id="email" name="email" required>
+                    </li>
+                    <li class="item">
+                        Номер телефона
+                        <input id="phone" name="phone" type="tel" pattern="[(]\d{3,4}[)]\s\d{2,3}[-]\d{2}[-]\d{2}"
+                            required>
+                    </li>
+                    <li class="item">
+                        Город
+                        <input type="text" required>
+                    </li>
+                    <li class="item">
+                        Дата рождения
+                        <input type="number" id="txtAge" required> <!-- min="1" max="100" -->
+                    </li>
+                </ul>
 
-            <h3 class="title">Предпочитаемый способ получения уведомления</h3>
-            <ul class="list radio">
-                <li class="item">
-                    <input type="radio" name="push" id="">
-                    По Email
-                </li>
-                <li class="item">
-                    <input type="radio" name="push" id="">
-                    По телефону
-                </li>
-                <li class="item">
-                    <input type="radio" name="push" id="">
-                    Не уведоблять меня
-                </li>
-            </ul>
+                <h3 class="title">Параметры доставки</h3>
+                <ul class="list">
+                    <li class="item">
+                        Адрес
+                        <textarea name="adress" id="" cols="21" rows="5"
+                            style="resize: none; overflow:scroll;"></textarea>
+                    </li>
+                    <li class="item">
+                        Почтовый индекс
+                        <input type="text">
+                    </li>
+                </ul>
 
-            <div class="button">
-                <button type="submit">
-                    Отправить данные
-                </button>
+                <h3 class="title">Предпочитаемый способ получения уведомления</h3>
+                <ul class="list radio">
+                    <li class="item">
+                        <input type="radio" name="push" id="">
+                        По Email
+                    </li>
+                    <li class="item">
+                        <input type="radio" name="push" id="">
+                        По телефону
+                    </li>
+                    <li class="item">
+                        <input type="radio" name="push" id="">
+                        Не уведоблять меня
+                    </li>
+                </ul>
+
+                <div class="button">
+                    <button class="ex1" type="submit">
+                        Отправить данные
+                    </button>
+                </div>
+
             </div>
+        </div>
 
-            
+        <div class="container">
+            <h2 class="title">Exersice 2</h2>
+            <div class="inner_container ex2">
+                <h3 class="title">Анкета посетителя ресторана</h3>
+                <fieldset class="text_set">
+                    <legend class="set_title">Контактная информация</legend>
+
+                    <ul class="list">
+                        <li class="item">
+                            <label for="inpt">Имя</label>
+                            <input type="text">
+                        </li>
+                        <li class="item">
+                            Телефон
+                            <input type="text">
+                        </li>
+                        <li class="item">
+                            Email
+                            <input type="text">
+                        </li>
+                        <li class="item">
+                            Дата посещения
+                            <input type="text">
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <fieldset class="text_set">
+                    <legend class="set_title">Персональная информация</legend>
+
+                    <ul class="list">
+                        <li class="item">
+                            Возраст
+                            <input type="number" max="100" min="1" step="1">
+                        </li>
+                        <li class="item">
+                            Любимая кухня
+                            <select name="select" id="">
+                                <option value="rus">Русская</option>
+                                <option value="nonrus">Не русская</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            Какие блюда Вы хотели бы увидеть в меню?
+                            <textarea name="dish" id="" cols="22" rows="3"></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="text_set">
+                    <legend class="set_title">Оценка нашего заведения - 1,5⭐</legend>
+                    <h4 class="title">
+                        Почему Вы выбрали наше заведение?
+                    </h4>
+                    <ul class="list long">
+                        <li class="item">
+                            <input type="radio" name="q1" id="q1">
+                            Недалеко от дома
+                        </li>
+                        <li class="item">
+                            <input type="radio" name="q1" id="q1">
+                            Увидел рекламу
+                        </li>
+                        <li class="item">
+                            <input type="radio" name="q1" id="q1">
+                            Посоветовали
+                        </li>
+                        <li class="item">
+                            <input type="radio" name="q1" id="q1">
+                            Оптимальное соотношение цены и качества
+                        </li>
+                    </ul>
+
+                    <h4 class="title">
+                        Вы будете рекомендовать наше заведение свои знакомым?
+                    </h4>
+                    <ul class="list radio">
+                        <li class="item">
+                            <input type="radio" name="q2" id="q2">
+                            Да
+                        </li>
+                        <li class="item">
+                            <input type="radio" name="q2" id="q2">
+                            Нет
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <input type="submit" class="send" value="Отправить">
+
+            </div>
         </div>
     </main>
 </body>
