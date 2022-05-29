@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    padding-bottom: 50px;
+}
+
+div.container {
+    margin: 0 auto;
+    margin-inline: 10vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    min-width: 500px;
+}
+
+div.content {
+    margin: 0 7vw 15px 7vw;
+    border: 2px dashed black;
+    border-radius: 15px;
+    padding: 10px 7vw 10px 7vw;
+    background-color: cornsilk;
+    min-width: 350px;
+
+    text-align: justify;
+}
+h2.title {
+    text-align: center;
+    font-size: 20pt;
+}
+h3 {
+    font-size: 18pt;
+    margin-bottom: 0px;
+}
+p {
+    margin: 0;
+    line-height: 200%;
+}
+
+.ex1 .text::first-letter {
+    color: red;
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.ex2 .text::first-line {
+    color: red;
+    font-style: italic;
+}
+
+.ex3 .text::selection {
+    color: red;
+    background-color: black;
+}
+
+div.inp {    
+    padding: 12px 0px 10px 30px;
+}
+.ex4 input {
+    padding: 0;
+}
+.ex4 input.first::placeholder {
+    color: green;
+}
+.ex4 input.second::placeholder {
+    background-color: green;
+    color: white;
+}
+
