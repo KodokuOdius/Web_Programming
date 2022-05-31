@@ -3,6 +3,7 @@
 *::before {
     box-sizing: border-box;
 }
+
 body {
     padding-bottom: 50px;
 }
@@ -27,14 +28,17 @@ div.content {
 
     text-align: justify;
 }
+
 h2.title {
     text-align: center;
     font-size: 20pt;
 }
+
 h3 {
     font-size: 18pt;
     margin-bottom: 0px;
 }
+
 p {
     margin: 0;
     line-height: 200%;
@@ -56,17 +60,113 @@ p {
     background-color: black;
 }
 
-div.inp {    
+div.inp {
     padding: 12px 0px 10px 30px;
 }
+
 .ex4 input {
     padding: 0;
 }
+
 .ex4 input.first::placeholder {
     color: green;
 }
+
 .ex4 input.second::placeholder {
     background-color: green;
     color: white;
 }
 
+.ex5 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ex5 input:focus {
+    border-radius: 15px;
+}
+
+.ex6 p.text::before {
+    content: 'Начало: ';
+    color: red;
+}
+
+.ex6 p.text::after {
+    content: ' :конец!';
+    color: green;
+}
+
+div.ex7 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px 10px 50px;
+}
+
+.ex7 ul.list {
+    border: 1px dashed black;
+    width: max-content;
+    padding: 10px 25px 10px 40px;
+}
+
+.ex7 ul.first li:first-child {
+    color: red;
+}
+
+.ex7 ul.first li:last-child {
+    color: green;
+}
+
+.ex7 ul.second li:nth-of-type(3) {
+    color: red;
+}
+
+.ex8 input[type='checkbox']:checked+label {
+    color: red;
+}
+
+.ex8 input[type='radio']:checked+label {
+    color: green;
+}
+
+.ex9 input[type='text']:enabled {
+    box-shadow: 0px 0px 2px 2px green;
+    margin-right: 5px;
+}
+
+.ex9 input[type='text']:disabled {
+    box-shadow: 0px 0px 2px 2px red;
+}
+
+.ex10 ul.list li.item {
+    min-width: 100px;
+    padding-left: 10px;
+    width: fit-content;
+    margin-bottom: 2px;
+    border: 2px solid red;
+}
+
+.ex10 ul.list li.item:empty {
+    border: 2px solid blue;
+}
+
+.ex11 p:not(.test) {
+    color: red;
+}
+
+.ex12 q:lang(de) {
+    quotes: "\201E""\201C";
+}
+.ex12 q:lang(en) {
+    quotes: "\201C""\201D";
+}
+.ex12 q:lang(fr) {
+    quotes: "\00AB""\00BB";
+}
+
+.ex13 a {
+    text-decoration: none;
+    color: black;
+}
+.ex13 span:target {
+    color: blue;
+}
