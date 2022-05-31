@@ -1,0 +1,193 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+div.container {
+    margin: 0 auto;
+    margin-inline: 10vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    min-width: 500px;
+}
+
+div.content {
+    margin: 0 7vw 15px 7vw;
+    border: 2px dashed black;
+    border-radius: 15px;
+    padding: 10px 7vw 10px 7vw;
+    background-color: cornsilk;
+    min-width: 350px;
+
+    text-align: justify;
+}
+
+h2.title {
+    text-align: center;
+    font-size: 20pt;
+}
+
+p {
+    border: 1px dashed black;
+    padding-inline: 5px;
+}
+.ex1 p.text1 {
+    letter-spacing: 2px;
+}
+.ex1 p.text2 {
+    letter-spacing: -1px;
+}
+.ex1 p.text3 {
+    word-spacing: 50px;
+}
+.ex1 p.text4 {
+    word-spacing: -5px;
+}
+.ex1 p.text5 {
+    font-variant: small-caps;
+}
+.ex1 p.text6 {
+    text-transform: uppercase;
+}
+
+.ex2 table{
+    border: 1px dashed black;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    table-layout: auto;
+}
+.ex2 td.data {
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+    padding-inline: 5px;
+    empty-cells: hide;
+}
+
+.ex3 p.text1 {
+    text-align-last: right;
+}
+.ex3 p.text2 {
+    text-align-last: center;
+}
+
+.ex4 {
+    display: flex;
+    flex-direction: row;
+    background: url('./images/border-image-fill.png');
+}
+.ex4 p {
+    width: min-content;
+    margin-right: 50px;
+    border: 15px solid gray;
+}
+.ex4 p.text1 {
+    border: 15px solid rgba(128, 128, 128, 0.5);
+}
+.ex4 p.text2 {
+    opacity: 50%;
+}
+
+.ex5 p.text1 {
+    text-shadow: 5px 10px 0px gray;
+}
+.ex5 p.text2 {
+    text-shadow: 5px 10px 2px gray;
+}
+.ex5 p.text3 {
+    text-shadow: 5px 10px 3px red, -5px -10px 3px blue;
+}
+.ex5 p.text4 {
+    text-shadow: -1px -1px 0 rgba(128, 128, 128, 0.7);
+}
+.ex5 p.text5 {
+    text-shadow: 1px 1px 2px gray, 2px 2px 3px gray
+}
+.ex5 p.text6 {
+    text-shadow: -2px -2px 0 gray, 2px -2px 0 gray, -2px 2px 0 gray, 2px 2px 0 gray;
+}
+
+
+.ex6 {
+    display: inline-flex;
+    flex-direction: row;
+}
+.ex6 p {
+    width: fit-content;
+    margin-right: 15px;
+    float: right;
+}
+.ex6 p.text1 {
+    box-shadow: 5px 5px 0px gray;
+}
+.ex6 p.text2 {
+    box-shadow: -5px -5px 5px gray;
+}
+.ex6 p.text3 {
+    box-shadow: 5px 5px 0px gray, -5px -5px 0px gray;
+}
+.ex6 p.text4 {
+    box-shadow: inset 5px 5px 3px gray;
+}
+.ex6 p.text5 {
+    box-shadow: inset 5px 5px 3px blue, inset -5px -5px 3px red;
+}
+
+.ex7 p {
+    text-align: left;
+    height: auto;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.ex7 p.text1 {
+    cursor: pointer;
+}
+.ex7 p.text2 {
+    cursor: context-menu;
+}
+.ex7 p.text3 {
+    cursor: not-allowed;
+}
+
+.ex8 p.text1 {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+.ex8 p.text2 {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+}
+.ex8 p.text3 {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+}
+.ex8 p.text4 {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}
+
+.ex9 {
+    background: url('./images/fon1.jpg') no-repeat, url('./images/fon2.jpg') no-repeat;
+    background-position: left top, right top;
+    background-size: contain, contain;
+}
+
+
+.ex10 p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
