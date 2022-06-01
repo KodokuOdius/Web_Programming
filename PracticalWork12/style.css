@@ -425,17 +425,20 @@ li {
     background-origin: padding-box;
     background-color: brown;
 }
+
 .ex20 li.block2 p {
     border: none;
     background-origin: padding-box;
     background-color: brown;
 }
+
 .ex20 li.block3 p {
     border: none;
     background-clip: border-box;
     background-color: blue;
     color: white;
 }
+
 .ex20 li.block4 p {
     border: none;
     background-clip: content-box;
