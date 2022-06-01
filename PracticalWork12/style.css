@@ -38,32 +38,39 @@ p {
     border: 1px dashed black;
     padding-inline: 5px;
 }
+
 .ex1 p.text1 {
     letter-spacing: 2px;
 }
+
 .ex1 p.text2 {
     letter-spacing: -1px;
 }
+
 .ex1 p.text3 {
     word-spacing: 50px;
 }
+
 .ex1 p.text4 {
     word-spacing: -5px;
 }
+
 .ex1 p.text5 {
     font-variant: small-caps;
 }
+
 .ex1 p.text6 {
     text-transform: uppercase;
 }
 
-.ex2 table{
+.ex2 table {
     border: 1px dashed black;
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 10px;
     table-layout: auto;
 }
+
 .ex2 td.data {
     color: white;
     background-color: green;
@@ -75,6 +82,7 @@ p {
 .ex3 p.text1 {
     text-align-last: right;
 }
+
 .ex3 p.text2 {
     text-align-last: center;
 }
@@ -84,14 +92,17 @@ p {
     flex-direction: row;
     background: url('./images/border-image-fill.png');
 }
+
 .ex4 p {
     width: min-content;
     margin-right: 50px;
     border: 15px solid gray;
 }
+
 .ex4 p.text1 {
     border: 15px solid rgba(128, 128, 128, 0.5);
 }
+
 .ex4 p.text2 {
     opacity: 50%;
 }
@@ -99,18 +110,23 @@ p {
 .ex5 p.text1 {
     text-shadow: 5px 10px 0px gray;
 }
+
 .ex5 p.text2 {
     text-shadow: 5px 10px 2px gray;
 }
+
 .ex5 p.text3 {
     text-shadow: 5px 10px 3px red, -5px -10px 3px blue;
 }
+
 .ex5 p.text4 {
     text-shadow: -1px -1px 0 rgba(128, 128, 128, 0.7);
 }
+
 .ex5 p.text5 {
     text-shadow: 1px 1px 2px gray, 2px 2px 3px gray
 }
+
 .ex5 p.text6 {
     text-shadow: -2px -2px 0 gray, 2px -2px 0 gray, -2px 2px 0 gray, 2px 2px 0 gray;
 }
@@ -120,23 +136,29 @@ p {
     display: inline-flex;
     flex-direction: row;
 }
+
 .ex6 p {
     width: fit-content;
     margin-right: 15px;
     float: right;
 }
+
 .ex6 p.text1 {
     box-shadow: 5px 5px 0px gray;
 }
+
 .ex6 p.text2 {
     box-shadow: -5px -5px 5px gray;
 }
+
 .ex6 p.text3 {
     box-shadow: 5px 5px 0px gray, -5px -5px 0px gray;
 }
+
 .ex6 p.text4 {
     box-shadow: inset 5px 5px 3px gray;
 }
+
 .ex6 p.text5 {
     box-shadow: inset 5px 5px 3px blue, inset -5px -5px 3px red;
 }
@@ -148,12 +170,15 @@ p {
     margin: 0 auto;
     margin-bottom: 5px;
 }
+
 .ex7 p.text1 {
     cursor: pointer;
 }
+
 .ex7 p.text2 {
     cursor: context-menu;
 }
+
 .ex7 p.text3 {
     cursor: not-allowed;
 }
@@ -163,16 +188,19 @@ p {
     text-decoration-style: wavy;
     text-decoration-color: red;
 }
+
 .ex8 p.text2 {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: red;
 }
+
 .ex8 p.text3 {
     text-decoration: underline;
     text-decoration-style: dashed;
     text-decoration-color: red;
 }
+
 .ex8 p.text4 {
     text-decoration: underline;
     text-decoration-style: double;
@@ -190,4 +218,269 @@ p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: 100%;
+}
+
+.ex11 p.text {
+    hyphens: manual;
+    font-size: large;
+    border-top: none;
+}
+
+
+ul.blocks {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 150px;
+}
+
+.ex12 li.block1 {
+    background: linear-gradient(blue, pink);
+}
+
+.ex12 li.block2 {
+    background: linear-gradient(to right, blue, pink);
+}
+
+.ex12 li.block3 {
+    background: linear-gradient(to left, blue, pink);
+}
+
+.ex12 li.block4 {
+    background: linear-gradient(to top left, blue, pink);
+}
+
+.ex12 li.block5 {
+    background: linear-gradient(90deg, blue, pink, blue, pink, blue);
+}
+
+.ex12 li.block6 {
+    background: linear-gradient(red 0px 50px, white 50px 100px, red 100px 150px);
+}
+
+
+.ex13 li.block1 {
+    background: radial-gradient(circle, pink, blue);
+}
+
+.ex13 li.block2 {
+    background: radial-gradient(ellipse, pink, blue);
+}
+
+.ex13 li.block3 {
+    background: radial-gradient(circle at 50%, pink 20px, blue 25px);
+}
+
+.ex13 li.block4 {
+    background: radial-gradient(circle at 10% 16%, pink 20px, blue 25px);
+}
+
+.ex13 li.block5 {
+    background: radial-gradient(circle at 50%, black 0px, white 25px 40px, green 50px 150px)
+}
+
+.ex14 li.block1 {
+    background: repeating-linear-gradient(to right, white 0px 4px, black 4px 8px);
+}
+
+.ex14 li.block2 {
+    background: repeating-linear-gradient(to bottom, white 0px 4px, black 4px 8px);
+}
+
+.ex14 li.block3 {
+    background: repeating-linear-gradient(to bottom, white 0px 6px, black 0px 8px);
+}
+
+.ex14 li.block4 {
+    background: repeating-linear-gradient(45deg, white 0px 10px, red 10px 20px);
+}
+
+.ex14 li.block5 {
+    background: repeating-radial-gradient(circle at 50%, black 0 5px, white 5px 10px);
+}
+
+.ex14 li.block6 {
+    background: repeating-linear-gradient(-45deg, black 0px 2px, white 0px 4px);
+}
+
+.ex15 p.text {
+    font-size: large;
+    border-top: none;
+    columns: 3;
+    column-gap: 50px;
+}
+
+.ex16 p.text {
+    font-size: large;
+    border-top: none;
+    columns: 4;
+    column-gap: 25px;
+    word-spacing: -5px;
+    letter-spacing: -1px;
+}
+
+.ex17 p.text {
+    font-size: large;
+    border-top: none;
+    columns: 2;
+    column-rule: 2px solid black;
+    column-gap: 100px;
+}
+
+
+@font-face {
+    font-family: Lombardina;
+    src: url('./fonts/3684.ttf');
+}
+
+.ex18 h3.inner_title {
+    font-family: 'Lombardina';
+    font-size: 28pt;
+}
+
+.ex18 p.text {
+    border: none;
+    font-family: 'Lombardina';
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+
+.ex19 li.block1,
+.ex19 li.block5 {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 26px;
+    -webkit-border-image: url("./images/border-image.png") 26 repeat;
+    -moz-border-image: url("./images/border-image.png") 26 repeat;
+    -o-border-image: url("./images/border-image.png") 26 repeat;
+    border-image: url("./images/border-image.png") 26 repeat;
+    background: green;
+}
+
+.ex19 li.block1:hover,
+.ex19 li.block5:hover {
+    -webkit-border-image: url("./images/border-image.png") 26 round;
+    -moz-border-image: url("./images/border-image.png") 26 round;
+    -o-border-image: url("./images/border-image.png") 26 round;
+    border-image: url("./images/border-image.png") 26 round;
+}
+
+.ex19 li.block2 {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 26px;
+    -webkit-border-image: url("./images/border-image.png") 20 space;
+    -moz-border-image: url("./images/border-image.png") 20 round;
+    -o-border-image: url("./images/border-image.png") 20 space;
+    border-image: url("./images/border-image.png") 20 space;
+    /* background: green; */
+}
+
+.ex19 li.block3 {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 26px;
+    -webkit-border-image: url("./images/border-image.png") 20 space;
+    -moz-border-image: url("./images/border-image.png") 20 round;
+    -o-border-image: url("./images/border-image.png") 20 space;
+    border-image: url("./images/border-image.png") 20 space;
+    /* background: green; */
+}
+
+.ex19 li.block4 {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 26px;
+    -webkit-border-image: url("./images/border-image.png") 20 space;
+    -moz-border-image: url("./images/border-image.png") 20 round;
+    -o-border-image: url("./images/border-image.png") 20 space;
+    border-image: url("./images/border-image.png") 20 space;
+    /* background: green; */
+}
+
+.ex19 li.block6 {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 26px;
+    -webkit-border-image: url("./images/border-image-fill.png") 10 repeat;
+    -moz-border-image: url("./images/border-image-fill.png") 10 repeat;
+    -o-border-image: url("./images/border-image-fill.png") 10 repeat;
+    border-image: url("./images/border-image-fill.png") 10 round;
+    background: green;
+}
+
+.ex20 li.block1 p {
+    border: none;
+    background-origin: padding-box;
+    background-color: brown;
+}
+.ex20 li.block2 p {
+    border: none;
+    background-origin: padding-box;
+    background-color: brown;
+}
+.ex20 li.block3 p {
+    border: none;
+    background-clip: border-box;
+    background-color: blue;
+    color: white;
+}
+.ex20 li.block4 p {
+    border: none;
+    background-clip: content-box;
+    background-color: blue;
+    color: white;
+}
+
+
+.ex21 li {
+    height: 250px;
+}
+
+.ex21 li img {
+    width: 100%;
+    height: 100%;
+}
+
+.ex21 li.block2 img {
+    filter: grayscale(100%);
+}
+
+.ex21 li.block4 img {
+    filter: sepia(100%);
+}
+
+.ex21 li.block6 img {
+    filter: saturate(100%);
+}
+
+.ex21 li.block8 img {
+    filter: hue-rotate(180deg);
+}
+
+.ex21 li.block10 img {
+    filter: invert(100%)
+}
+
+.ex21 li.block12 img {
+    filter: opacity(50%)
+}
+
+.ex21 li.block14 img {
+    filter: blur(5px);
+}
+
+.ex21 li.block16 img {
+    filter: drop-shadow(10px 10px 10px #222);
 }
